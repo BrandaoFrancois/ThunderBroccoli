@@ -13,7 +13,6 @@ var Calculator = document.calculator = {
     this.resultField = document.getElementById('result');
 
     btt.onclick = this.validate.bind(this);
-    alert("Init successfull !");
   },
 
   validate: function() {
