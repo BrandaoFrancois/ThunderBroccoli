@@ -25,7 +25,7 @@ var Calculator = document.calculator = {
   },
 
   generate: function(cx, cy, r) {
-    return 'M' + cx + ',' + cy + "A" + r + "," + r + " 0,1 1," + (cx + 2 * r) + " " + cy + " A " + r + "," + r + " 0,1 1," + cx + "," + cy + " Z";
+    return 'M' + cx + ',' + cy + "A" + r + "," + r + " 0,1 1," + (parseFloat(cx) + 2.0 * parseFloat(r)) + " " + cy + " A " + r + "," + r + " 0,1 1," + cx + "," + cy + " Z";
   }
 };
 
