@@ -61,7 +61,7 @@ var Color = document.color = {
     const gHexa = parseInt(g).toString(16);
     const bHexa = parseInt(b).toString(16);
     return (rHexa.length == 1 ? '0' : '') + rHexa +
-      (gHexa.length == 1 ? '0' : '') + gHexa
+      (gHexa.length == 1 ? '0' : '') + gHexa +
       (bHexa.length == 1 ? '0' : '') + bHexa;
   },
 
