@@ -10,10 +10,10 @@ var Color = document.color = {
     this.bField = document.getElementById('color_b');
     this.hexaField = document.getElementById('color_hexa');
 
-    this.rField.onChange = this.onDecimalColorChange.bind(this);
-    this.gField.onChange = this.onDecimalColorChange.bind(this);
-    this.bField.onChange = this.onDecimalColorChange.bind(this);
-    this.hexaField.onChange = this.onHexaDecimalColorChange.bind(this);
+    this.rField.onchange = this.onDecimalColorChange.bind(this);
+    this.gField.onchange = this.onDecimalColorChange.bind(this);
+    this.bField.onchange = this.onDecimalColorChange.bind(this);
+    this.hexaField.onchange = this.onHexaDecimalColorChange.bind(this);
   },
 
   onDecimalColorChange: function() {
