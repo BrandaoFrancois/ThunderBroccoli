@@ -57,7 +57,7 @@ var Color = document.color = {
   },
 
   translateToHexa: function(r, g, b) {
-    return r.toString(16) + g.toString(16) + b.toString(16);
+    return parseInt(r).toString(16) + parseInt(g).toString(16) + parseInt(b).toString(16);
   },
 
   translateToDec: function(hexa, partNumber) {
